@@ -1,0 +1,34 @@
+/*
+Author:Raymond Doka
+Reg No:CT101/G/26549/25
+Description:Program for computing surface area and volume of a cylinder
+*/
+//pre-processor directive
+#include <stdio.h> //scanf(),printf()
+#define pi =3.142
+ int main ()
+ {
+// variale declaration 
+float radius,height;
+float volume,surface_area;
+float pi
+
+//prompt the user to enter radius of cylinder
+printf("enter radius of the cylinder:");
+scanf("%f",&radius);
+
+//prompt the user to enter height of cylinder
+printf("enter height of cylinder:");
+scanf("%f",&height);
+
+//calculations for volume and surface_area
+volume=pi*radius*radius*height;
+ 
+surface_area=2*pi*radius*radius*+2*pi*radius*height;
+  
+  //print the calculated volume and surface_area
+  printf("volume of the cylinder=%.2f\n",volume);
+  printf("surface_area of the cylinder=.%2f\n",surface_area);
+ 
+return 0;
+}
