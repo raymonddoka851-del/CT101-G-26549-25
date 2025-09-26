@@ -1,4 +1,8 @@
-``cpp
+/*
+Author:Raymond Doka
+Reg No:CT101/G/26549/25
+Description:Program for computing surface area and volume of a cylinder
+*/
 #include <iostream>
 using namespace std;
 
@@ -28,4 +32,5 @@ int main() {
 
     return 0;
 }
+
 ```
